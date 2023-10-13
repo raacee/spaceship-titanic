@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spaceship-titanic"
+version = "0.1.0"
+description = ""
+authors = ["raacee <raceldamechli@outlook.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+numpy = "^1.26.0"
+matplotlib = "^3.8.0"
+tensorflow = "^2.14.0"
+pandas = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
