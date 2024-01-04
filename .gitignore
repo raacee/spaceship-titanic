@@ -1,3 +1,5 @@
 /.ipynb_checkpoints
 __pycache__
 results.csv
+data/results_kNN.csv
+data/results_rf.csv
